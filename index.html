@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>РУНА — вакансии в крупных компаниях</title>
+<meta name="description" content="РУНА — агентство по подбору персонала. Открытые вакансии в крупных компаниях: рестораны, связь, доставка, банки. Выберите подходящую и откликнитесь на сайте работодателя — бесплатно.">
+<meta name="theme-color" content="#050308">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="website">
+<meta property="og:title" content="РУНА — вакансии в крупных компаниях">
+<meta property="og:description" content="Открытые вакансии известных работодателей на одной странице. Отклик — на сайте компании, бесплатно.">
+<meta property="og:image" content="https://daviddavidso.github.io/runa/img/og.jpg">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" href="fonts/unbounded-cyr.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/manrope-400-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="fonts/manrope.css?v=20261111011707">
+<link rel="stylesheet" href="css/style.css?v=20261111011707">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3.2 5 6v5.4c0 4.3 2.9 7.9 7 9.4 4.1-1.5 7-5.1 7-9.4V6l-7-2.8Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="m8.8 12.2 2.3 2.3 4.2-4.4" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-tg" viewBox="0 0 24 24"><path d="M20.6 4.3 3.4 11c-1.2.5-1.1 1.2-.2 1.5l4.4 1.4 1.7 5.2c.2.6.4.8.9.8.4 0 .6-.2.9-.5l2.1-2 4.4 3.3c.8.4 1.4.2 1.6-.8l2.9-13.6c.3-1.2-.4-1.7-1.4-1.2ZM9.2 13.6l8.9-5.6c.4-.3.8-.1.5.2l-7.6 6.9-.3 3.2-1.5-4.7Z" fill="currentColor"/></symbol>
+</svg>
+
+<!-- Фиолетовые дуги по углам — из фирменной картинки клиента. Только декор. -->
+<div class="glow" aria-hidden="true"><span class="glow__arc glow__arc--a"></span><span class="glow__arc glow__arc--b"></span></div>
+
+<a class="skip" href="#vacancies">К вакансиям</a>
+
+<header class="hdr">
+  <div class="wrap hdr__in">
+    <a class="brand" href="#top">
+      <img class="brand__mark" src="img/logo-mark.png" alt="" width="46" height="40">
+      <img class="brand__word" src="img/logo-word.png" alt="РУНА — на главную" data-brand-alt width="89" height="18">
+    </a>
+
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="nav">
+      <svg class="ico burger__open" aria-hidden="true" focusable="false"><use href="#i-menu"/></svg>
+      <svg class="ico burger__close" aria-hidden="true" focusable="false"><use href="#i-close"/></svg>
+      <span class="burger__text">Меню</span>
+    </button>
+
+    <nav class="nav" id="nav" aria-label="Основное">
+      <ul class="nav__list" id="nav-list" role="list">
+        <li data-nav-cat><a href="#vacancies">Вакансии</a></li>
+        <li data-nav-static><a href="#how">Как откликнуться</a></li>
+        <li data-nav-static><a href="#faq">Вопросы</a></li>
+      </ul>
+      <a class="btn btn--ghost btn--sm nav__cta" href="#vacancies">
+        <span>Смотреть вакансии</span>
+        <svg class="ico btn__arrow" aria-hidden="true" focusable="false"><use href="#i-down"/></svg>
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <div class="wrap hero">
+    <section class="intro" aria-labelledby="hero-title">
+      <p class="eyebrow" data-tagline>Агентство по подбору персонала</p>
+      <h1 class="h1" id="hero-title"><span data-title>Подберём работу</span> <span class="accent" data-title-accent>в крупной компании</span></h1>
+      <p class="intro__lead" data-lead>Собрали открытые вакансии известных работодателей: рестораны, связь, доставка, банки. Выберите подходящую и откликнитесь на сайте компании — для соискателя это бесплатно.</p>
+      <ul class="facts" id="facts" role="list"></ul>
+      <p class="safe">
+        <svg class="ico safe__ico" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg>
+        <span><strong>Трудоустройство бесплатное.</strong> Мы не берём денег с соискателей — ни за анкету, ни за обучение.</span>
+      </p>
+    </section>
+
+    <div class="boards" id="vacancies" tabindex="-1">
+      <div id="catalog"></div>
+      <noscript>
+        <p class="noscript">Чтобы увидеть вакансии, включите JavaScript в настройках браузера.</p>
+      </noscript>
+    </div>
+  </div>
+
+  <section class="sec reveal" id="how" aria-labelledby="how-title">
+    <div class="wrap split">
+      <div class="split__head">
+        <h2 class="h2" id="how-title">Как откликнуться</h2>
+        <p class="sec__lead">Анкета заполняется на сайте работодателя — мы только показываем, где сейчас открыт набор.</p>
+        <div class="notice">
+          <svg class="ico notice__ico" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg>
+          <div>
+            <h3 class="notice__title">Осторожно, мошенники</h3>
+            <p>Отклик и трудоустройство бесплатны. Если от имени агентства или работодателя просят оплатить анкету, обучение, форму или «бронь места» — не платите и не называйте коды из СМС.</p>
+          </div>
+        </div>
+      </div>
+
+      <ol class="steps" role="list">
+        <li class="step">
+          <span class="step__n" aria-hidden="true">01</span>
+          <div class="step__body">
+            <h3 class="step__title">Выберите вакансию</h3>
+            <p>Посмотрите условия в списке: формат работы, график, что нужно для старта. Нажмите «Откликнуться».</p>
+          </div>
+        </li>
+        <li class="step">
+          <span class="step__n" aria-hidden="true">02</span>
+          <div class="step__body">
+            <h3 class="step__title">Заполните анкету</h3>
+            <p>Откроется сайт работодателя. Обычно спрашивают имя, телефон и город — это занимает пару минут.</p>
+          </div>
+        </li>
+        <li class="step">
+          <span class="step__n" aria-hidden="true">03</span>
+          <div class="step__body">
+            <h3 class="step__title">Дождитесь ответа</h3>
+            <p>С вами свяжется рекрутер компании, расскажет об условиях в вашем городе и о следующих шагах.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="sec reveal" id="faq" aria-labelledby="faq-title">
+    <div class="wrap split">
+      <div class="split__head">
+        <h2 class="h2" id="faq-title">Частые вопросы</h2>
+        <p class="sec__lead">Коротко о том, как устроен отклик и кто принимает решение.</p>
+      </div>
+
+      <div class="faq__list">
+        <details class="qa">
+          <summary><span class="qa__row"><span class="qa__q">Сколько стоит отклик?</span><span class="qa__chev" aria-hidden="true"><svg class="ico" focusable="false"><use href="#i-chevron"/></svg></span></span></summary>
+          <div class="qa__a"><p>Нисколько. Смотреть вакансии и откликаться можно бесплатно. Работодатели из списка тоже не берут деньги за трудоустройство.</p></div>
+        </details>
+        <details class="qa">
+          <summary><span class="qa__row"><span class="qa__q"><span data-brand>РУНА</span> — это работодатель?</span><span class="qa__chev" aria-hidden="true"><svg class="ico" focusable="false"><use href="#i-chevron"/></svg></span></span></summary>
+          <div class="qa__a"><p>Нет. Мы собираем открытые вакансии компаний на одной странице. Договор вы заключаете напрямую с компанией — она же принимает решение по отклику.</p></div>
+        </details>
+        <details class="qa">
+          <summary><span class="qa__row"><span class="qa__q">Как откликнуться на вакансию?</span><span class="qa__chev" aria-hidden="true"><svg class="ico" focusable="false"><use href="#i-chevron"/></svg></span></span></summary>
+          <div class="qa__a"><p>Нажмите «Откликнуться» в строке вакансии — в новой вкладке откроется сайт работодателя. Заполните там короткую анкету, дальше с вами свяжется рекрутер.</p></div>
+        </details>
+        <details class="qa">
+          <summary><span class="qa__row"><span class="qa__q">Нужен ли опыт работы?</span><span class="qa__chev" aria-hidden="true"><svg class="ico" focusable="false"><use href="#i-chevron"/></svg></span></span></summary>
+          <div class="qa__a"><p>Зависит от вакансии. Требования указаны в строке вакансии и на сайте работодателя: на часть позиций берут без опыта и обучают, на другие нужен стаж.</p></div>
+        </details>
+        <details class="qa">
+          <summary><span class="qa__row"><span class="qa__q">Куда уходят мои данные?</span><span class="qa__chev" aria-hidden="true"><svg class="ico" focusable="false"><use href="#i-chevron"/></svg></span></span></summary>
+          <div class="qa__a"><p>На этом сайте нет анкет: мы не собираем телефоны и паспортные данные. Анкету вы заполняете на сайте работодателя, и данные обрабатывает он по своим правилам.</p></div>
+        </details>
+        <details class="qa">
+          <summary><span class="qa__row"><span class="qa__q">Где посмотреть точные условия?</span><span class="qa__chev" aria-hidden="true"><svg class="ico" focusable="false"><use href="#i-chevron"/></svg></span></span></summary>
+          <div class="qa__a"><p>На сайте работодателя, куда ведёт кнопка. Зарплата, график и требования зависят от города и могут меняться — окончательные условия называет компания.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__top">
+      <div class="foot__about">
+        <a class="brand" href="#top">
+          <img class="brand__mark" src="img/logo-mark.png" alt="" width="46" height="40" loading="lazy">
+          <img class="brand__word" src="img/logo-word.png" alt="РУНА — на главную" data-brand-alt width="89" height="18" loading="lazy">
+        </a>
+        <p>Агентство по подбору персонала: открытые вакансии крупных компаний на одной странице.</p>
+        <p class="foot__tg" data-telegram hidden><a href="https://t.me/"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-tg"/></svg>Написать в Telegram: <span data-tg-name></span></a></p>
+      </div>
+      <nav class="foot__nav" aria-label="В подвале">
+        <ul role="list">
+          <li><a href="#vacancies">Вакансии</a></li>
+          <li><a href="#how">Как откликнуться</a></li>
+          <li><a href="#faq">Вопросы</a></li>
+          <li><a href="privacy.html">Политика обработки данных</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="foot__legal">
+      <p>Сайт не является работодателем и не принимает решений о приёме на работу. Информация носит справочный характер и не является публичной офертой. Точные условия — на сайте работодателя.</p>
+      <p>Ссылки «Откликнуться» — реклама партнёров. Отклик и трудоустройство для соискателя бесплатны.</p>
+      <p>Вакансии проверены <span data-updated>10.11.2026</span> · © 2026 <span data-brand>РУНА</span></p>
+    </div>
+  </div>
+</footer>
+
+<script>if(typeof OFFERS==="undefined"){document.write('<script src="data.js?t='+Date.now()+'"><\/script>');}</script>
+<script src="js/app.js?v=20261111011707"></script>
+</body>
+</html>
